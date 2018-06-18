@@ -5,9 +5,9 @@
 
 void swap (int &i , int &j)
 {
-	i = i+j;
-	j = i-j;
-	i = i-j;
+	int temp = i;	
+	i = j;
+	j = temp;
 } 
 
 
