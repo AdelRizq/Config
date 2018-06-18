@@ -1,7 +1,7 @@
-# This Function takes an array as input and sorts it using Selection Sort
-# Return the address of the first element of the sorted array
-# Author: Adel Rizq
-# Date: 6/18/2018
+// This Function takes an array as input and sorts it using Selection Sort
+// Return the address of the first element of the sorted array
+// Author: Adel Rizq
+// Date: 6/18/2018
 
 void swap (int &i , int &j)
 {
