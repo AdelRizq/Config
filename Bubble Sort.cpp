@@ -1,4 +1,4 @@
-//This Function for Sorting an array by Bubble sorting 
+//This Function for Sorting an array in ascending way by Bubble sorting 
 //Author Adel Rizq
 // 18/6/2018
 
