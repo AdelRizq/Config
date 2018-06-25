@@ -4,7 +4,7 @@
 
 
 struct stack{
-	int arr[40];
+	int arr[100];
 	int top = -1;
 	void push(int val){
 		if (top == 99) return;
@@ -22,5 +22,10 @@ struct stack{
 	bool isempty(){
 		if (top == -1) return true;
 		else return false;
+	}
+	void clear()
+	{
+		while(top != -1)
+			pop();
 	}
 };
